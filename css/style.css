@@ -119,8 +119,41 @@ header .btn-contato button {
   height: 50px;
 }
 
-/* estilo hero */
+/*estilo do botão do menu mobile @!@!*/
 
+header .btn-menu-mob div {
+  background-color: #fff;
+  height: 3px;
+  margin: 10px 0;
+  transition: .2s;
+}
+
+header .btn-menu-mob .line-menumob-1 {
+  width: 30px;
+
+}
+
+header .btn-menu-mob .line-menumob-2 {
+  width: 20px;
+
+}
+
+header.rolar .btn-menu-mob div {
+  background-color: #000;
+
+}
+
+header .btn-menu-mob .line-menumob-1.ativo1 {
+  transform: rotate(45deg) translate(30%);
+}
+
+header .btn-menu-mob .line-menumob-2.ativo2 {
+  transform: rotate(-45deg) translate(30%);
+  width: 30px;
+}
+
+
+/* estilo hero */
 section.hero-site {
   height: 90vh;
   background-image: url(../images/bg-inicio-site.jpg);
